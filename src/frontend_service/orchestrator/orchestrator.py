@@ -25,7 +25,7 @@ class classproperty:
 
 
 class BaseOrchestrator(ABC):
-    MODEL = "gemini-pro"
+    MODEL = "gemini 2.5-pro"
 
     @classproperty
     @abstractmethod
